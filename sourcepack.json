@@ -2,12 +2,12 @@
   "schema": "yomu.source-pack/1",
   "id": "yomu-source-forge",
   "name": "Yomu Source Forge",
-  "version": 2,
-  "updatedAt": "2026-09-19T04:34:32.925Z",
-  "description": "Git mirror of website sources automatically verified by Yomu Source Fabric. Every candidate is independently re-tested before this file is updated.",
+  "version": 3,
+  "updatedAt": "2026-09-19T05:52:17.897Z",
+  "description": "Git mirror of website sources automatically verified by Yomu Source Fabric. New candidates are independently re-tested; sources positively classified as access-protected are removed until they become usable again.",
   "sources": [
     {
-      "url": "https://mangadistrict.com/",
+      "url": "https://kingofshojo.com/",
       "tags": [
         "manga",
         "manhwa",
@@ -20,16 +20,16 @@
       ]
     },
     {
-      "url": "https://mangaowl.io/",
+      "url": "https://mangadistrict.com/",
       "tags": [
-        "comic",
         "manga",
         "manhwa",
         "manhua",
         "webtoon",
+        "comic",
         "source-forge",
         "auto-generated",
-        "remote-recipe"
+        "remote-adaptive"
       ]
     },
     {
@@ -72,6 +72,19 @@
       ]
     },
     {
+      "url": "https://qtoon.org/",
+      "tags": [
+        "manga",
+        "manhwa",
+        "manhua",
+        "webtoon",
+        "comic",
+        "source-forge",
+        "auto-generated",
+        "remote-adaptive"
+      ]
+    },
+    {
       "url": "https://www.mangabats.com/",
       "tags": [
         "manga",
@@ -86,6 +99,19 @@
     },
     {
       "url": "https://www.manganelo.cc/",
+      "tags": [
+        "manga",
+        "manhwa",
+        "manhua",
+        "webtoon",
+        "comic",
+        "source-forge",
+        "auto-generated",
+        "remote-adaptive"
+      ]
+    },
+    {
+      "url": "https://www.zazamanga.com/",
       "tags": [
         "manga",
         "manhwa",
