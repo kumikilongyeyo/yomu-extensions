@@ -2,10 +2,36 @@
   "schema": "yomu.source-pack/1",
   "id": "yomu-source-forge",
   "name": "Yomu Source Forge",
-  "version": 5,
-  "updatedAt": "2026-09-19T16:08:17.551Z",
+  "version": 6,
+  "updatedAt": "2026-09-19T18:34:38.052Z",
   "description": "Git mirror of website sources automatically verified by Yomu Source Fabric. New candidates are independently re-tested; sources positively classified as access-protected are removed until they become usable again.",
   "sources": [
+    {
+      "url": "https://asurascans.com/",
+      "tags": [
+        "manga",
+        "manhwa",
+        "manhua",
+        "webtoon",
+        "comic",
+        "source-forge",
+        "auto-generated",
+        "remote-adaptive"
+      ]
+    },
+    {
+      "url": "https://comicfury.com/",
+      "tags": [
+        "comic",
+        "manga",
+        "manhwa",
+        "manhua",
+        "webtoon",
+        "source-forge",
+        "auto-generated",
+        "website-adaptive"
+      ]
+    },
     {
       "url": "https://hiveworkscomics.com/",
       "tags": [
