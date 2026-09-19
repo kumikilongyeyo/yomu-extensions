@@ -1,0 +1,42 @@
+name: Source Forge sync
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/sync-forge.mjs'
+      - '.github/workflows/forge-sync.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: source-forge-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Re-test and mirror Source Forge candidates
+        run: node scripts/sync-forge.mjs
+      - name: Commit accepted sources
+        run: |
+          if git diff --quiet -- sourcepack.json; then
+            echo 'No accepted Source Forge changes.'
+            exit 0
+          fi
+          git config user.name 'yomu-source-forge[bot]'
+          git config user.email 'yomu-source-forge[bot]@users.noreply.github.com'
+          git add sourcepack.json
+          git commit -m 'chore: sync verified Source Forge sources'
+          git push
