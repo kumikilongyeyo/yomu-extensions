@@ -2,10 +2,23 @@
   "schema": "yomu.source-pack/1",
   "id": "yomu-source-forge",
   "name": "Yomu Source Forge",
-  "version": 4,
-  "updatedAt": "2026-09-19T12:49:39.374Z",
+  "version": 5,
+  "updatedAt": "2026-09-19T16:08:17.551Z",
   "description": "Git mirror of website sources automatically verified by Yomu Source Fabric. New candidates are independently re-tested; sources positively classified as access-protected are removed until they become usable again.",
   "sources": [
+    {
+      "url": "https://hiveworkscomics.com/",
+      "tags": [
+        "comic",
+        "manga",
+        "manhwa",
+        "manhua",
+        "webtoon",
+        "source-forge",
+        "auto-generated",
+        "remote-recipe"
+      ]
+    },
     {
       "url": "https://kingofshojo.com/",
       "tags": [
@@ -20,7 +33,60 @@
       ]
     },
     {
+      "url": "https://mangadex.org/",
+      "tags": [
+        "comic",
+        "manga",
+        "manhwa",
+        "manhua",
+        "webtoon",
+        "adult",
+        "source-forge",
+        "auto-generated",
+        "remote-recipe"
+      ]
+    },
+    {
       "url": "https://mangadistrict.com/",
+      "tags": [
+        "manga",
+        "manhwa",
+        "manhua",
+        "webtoon",
+        "comic",
+        "source-forge",
+        "auto-generated",
+        "remote-adaptive"
+      ]
+    },
+    {
+      "url": "https://mangagg.com/",
+      "tags": [
+        "manga",
+        "manhwa",
+        "manhua",
+        "webtoon",
+        "comic",
+        "source-forge",
+        "auto-generated",
+        "remote-adaptive"
+      ]
+    },
+    {
+      "url": "https://mangahub.io/",
+      "tags": [
+        "manga",
+        "manhwa",
+        "manhua",
+        "webtoon",
+        "comic",
+        "source-forge",
+        "auto-generated",
+        "remote-adaptive"
+      ]
+    },
+    {
+      "url": "https://manganato.gg/",
       "tags": [
         "manga",
         "manhwa",
@@ -73,6 +139,19 @@
     },
     {
       "url": "https://manhuaplus.top/",
+      "tags": [
+        "manga",
+        "manhwa",
+        "manhua",
+        "webtoon",
+        "comic",
+        "source-forge",
+        "auto-generated",
+        "remote-adaptive"
+      ]
+    },
+    {
+      "url": "https://projectsuki.com/",
       "tags": [
         "manga",
         "manhwa",
