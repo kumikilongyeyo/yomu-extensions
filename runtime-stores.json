@@ -1,0 +1,87 @@
+{
+  "schema": "yomu.runtime-store-pack/1",
+  "id": "wotaku-mihon-community",
+  "name": "Wotaku Mihon/Aniyomi Community Stores",
+  "version": 1,
+  "updatedAt": "2026-09-21T00:00:00+08:00",
+  "discoveredFrom": "https://wotaku.wiki/ext/mihon",
+  "runtime": {
+    "class": "MIHON_ANDROID",
+    "preferredEngine": "miwayomi",
+    "readerContract": "yomu-universal-reader/1",
+    "notes": "Repository indexes are metadata only. APK/JAR extension code executes only inside the isolated JVM runtime, never inside the Cloudflare Worker."
+  },
+  "stores": [
+    {
+      "id": "keiyoushi",
+      "name": "Keiyoushi",
+      "repo": "https://github.com/keiyoushi/extensions/raw/repo/index.pb",
+      "fallbackRepo": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json",
+      "format": "mihon-index-pb",
+      "languages": ["multi"],
+      "content": ["manga", "manhwa", "manhua", "webtoon", "comic"],
+      "adultPossible": true,
+      "enabledByDefault": true
+    },
+    {
+      "id": "yuzono-manga",
+      "name": "Yūzōnō Manga",
+      "repo": "https://raw.githubusercontent.com/yuzono/manga-repo/repo/index.min.json",
+      "format": "mihon-index-json",
+      "languages": ["multi"],
+      "content": ["manga", "manhwa", "manhua", "webtoon", "comic"],
+      "adultPossible": true,
+      "enabledByDefault": true
+    },
+    {
+      "id": "yuzono-cursed-manga",
+      "name": "Fucked by FAKKU / Cursed Manga",
+      "repo": "https://raw.githubusercontent.com/yuzono/cursed-manga-repo/repo/index.min.json",
+      "format": "mihon-index-json",
+      "languages": ["multi"],
+      "content": ["manga", "comic", "adult"],
+      "adultPossible": true,
+      "enabledByDefault": false
+    },
+    {
+      "id": "kavita",
+      "name": "Kavita",
+      "repo": "https://raw.githubusercontent.com/Kareadita/tach-extension/repo/index.min.json",
+      "format": "mihon-index-json",
+      "languages": ["multi"],
+      "content": ["library-server", "manga", "comic"],
+      "adultPossible": true,
+      "enabledByDefault": false
+    },
+    {
+      "id": "suwayomi-extension",
+      "name": "Suwayomi",
+      "repo": "https://raw.githubusercontent.com/suwayomi/tachiyomi-extension/repo/index.min.json",
+      "format": "mihon-index-json",
+      "languages": ["multi"],
+      "content": ["library-server", "manga", "comic"],
+      "adultPossible": true,
+      "enabledByDefault": false
+    },
+    {
+      "id": "copymanga-copy20",
+      "name": "copymanga-copy20",
+      "repo": "https://raw.githubusercontent.com/LittleSurvival/copymanga-copy20/repo/index.min.json",
+      "format": "mihon-index-json",
+      "languages": ["zh", "zh-Hans", "zh-Hant"],
+      "content": ["manga", "manhua", "comic"],
+      "adultPossible": true,
+      "enabledByDefault": true
+    },
+    {
+      "id": "felipegfa",
+      "name": "FelipeGFA",
+      "repo": "https://raw.githubusercontent.com/FelipeGFA/extensoes/repo/index.min.json",
+      "format": "mihon-index-json",
+      "languages": ["pt-BR"],
+      "content": ["manga", "manhwa", "manhua", "webtoon", "comic"],
+      "adultPossible": true,
+      "enabledByDefault": true
+    }
+  ]
+}
