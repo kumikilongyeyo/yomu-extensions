@@ -2,8 +2,8 @@
   "schema": "yomu.source-pack/1",
   "id": "yomu-source-forge",
   "name": "Yomu Source Forge",
-  "version": 9,
-  "updatedAt": "2026-09-20T19:15:17.561Z",
+  "version": 10,
+  "updatedAt": "2026-09-20T21:35:49.618Z",
   "description": "Git mirror of website sources automatically verified by Yomu Source Fabric. New candidates are independently re-tested; sources positively classified as access-protected are removed until they become usable again.",
   "sources": [
     {
@@ -100,19 +100,6 @@
     },
     {
       "url": "https://mangadistrict.com/",
-      "tags": [
-        "manga",
-        "manhwa",
-        "manhua",
-        "webtoon",
-        "comic",
-        "source-forge",
-        "auto-generated",
-        "remote-adaptive"
-      ]
-    },
-    {
-      "url": "https://mangagg.com/",
       "tags": [
         "manga",
         "manhwa",
