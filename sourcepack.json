@@ -2,8 +2,8 @@
   "schema": "yomu.source-pack/1",
   "id": "yomu-source-forge",
   "name": "Yomu Source Forge",
-  "version": 16,
-  "updatedAt": "2026-09-22T18:20:37.062Z",
+  "version": 17,
+  "updatedAt": "2026-09-22T21:26:26.432Z",
   "description": "Git mirror of website sources automatically verified by Yomu Source Fabric. New candidates are independently re-tested; sources positively classified as access-protected are removed until they become usable again.",
   "sources": [
     {
@@ -151,6 +151,20 @@
       ]
     },
     {
+      "url": "https://mangaowl.io/",
+      "tags": [
+        "comic",
+        "manga",
+        "manhwa",
+        "manhua",
+        "webtoon",
+        "adult",
+        "source-forge",
+        "auto-generated",
+        "remote-recipe"
+      ]
+    },
+    {
       "url": "https://mangapill.com/",
       "tags": [
         "manga",
@@ -191,6 +205,19 @@
     },
     {
       "url": "https://manhuaplus.top/",
+      "tags": [
+        "manga",
+        "manhwa",
+        "manhua",
+        "webtoon",
+        "comic",
+        "source-forge",
+        "auto-generated",
+        "remote-adaptive"
+      ]
+    },
+    {
+      "url": "https://projectsuki.com/",
       "tags": [
         "manga",
         "manhwa",
