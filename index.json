@@ -1,6 +1,6 @@
 {
   "schema": "yomu.extension-index/1",
-  "updatedAt": "2026-09-28T01:48:00Z",
+  "updatedAt": "2026-09-28T01:53:00Z",
   "extensions": [
     {
       "id": "weebcentral",
@@ -65,7 +65,7 @@
     {
       "id": "toongod",
       "name": "ToonGod",
-      "version": 1,
+      "version": 2,
       "language": "en",
       "content": ["manga", "manhwa", "manhua", "webtoon", "adult"],
       "module": "sources/toongod.json",
