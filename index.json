@@ -1,6 +1,6 @@
 {
   "schema": "yomu.extension-index/1",
-  "updatedAt": "2026-09-28T01:53:00Z",
+  "updatedAt": "2026-09-28T04:00:00Z",
   "extensions": [
     {
       "id": "weebcentral",
@@ -61,6 +61,56 @@
       "module": "sources/comick.json",
       "hosts": ["api.comick.dev", "meo.comick.pictures"],
       "capabilities": {"search": true, "popular": true, "latest": true, "details": false, "chapters": false, "pages": false}
+    },
+    {
+      "id": "hivetoons",
+      "name": "HiveToons",
+      "version": 1,
+      "language": "en",
+      "content": ["manga", "manhwa", "manhua"],
+      "module": "sources/hivetoons.json",
+      "hosts": ["hivetoons.org", "hivetoon.com"],
+      "capabilities": {"search": true, "popular": true, "latest": true, "details": true, "chapters": true, "pages": true}
+    },
+    {
+      "id": "vortexscans",
+      "name": "Vortex Scans",
+      "version": 1,
+      "language": "en",
+      "content": ["manga", "manhwa", "manhua"],
+      "module": "sources/vortexscans.json",
+      "hosts": ["vortexscans.org", "vexmanga.com"],
+      "capabilities": {"search": true, "popular": true, "latest": true, "details": true, "chapters": true, "pages": true}
+    },
+    {
+      "id": "magustoon",
+      "name": "Magus Manga",
+      "version": 1,
+      "language": "en",
+      "content": ["manhwa", "manhua", "manga"],
+      "module": "sources/magustoon.json",
+      "hosts": ["magustoon.org"],
+      "capabilities": {"search": true, "popular": true, "latest": true, "details": true, "chapters": true, "pages": true}
+    },
+    {
+      "id": "nyxscans",
+      "name": "Nyx Scans",
+      "version": 1,
+      "language": "en",
+      "content": ["manga", "manhwa", "manhua"],
+      "module": "sources/nyxscans.json",
+      "hosts": ["nyxscans.com"],
+      "capabilities": {"search": true, "popular": true, "latest": true, "details": true, "chapters": true, "pages": true}
+    },
+    {
+      "id": "tcbscans",
+      "name": "TCB Scans",
+      "version": 1,
+      "language": "en",
+      "content": ["manga"],
+      "module": "sources/tcbscans.json",
+      "hosts": ["tcbonepiecechapters.com"],
+      "capabilities": {"search": true, "popular": true, "latest": true, "details": true, "chapters": true, "pages": true}
     },
     {
       "id": "toongod",
