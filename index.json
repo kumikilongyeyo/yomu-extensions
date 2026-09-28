@@ -1,6 +1,6 @@
 {
   "schema": "yomu.extension-index/1",
-  "updatedAt": "2026-09-28T04:08:00Z",
+  "updatedAt": "2026-09-28T04:12:00Z",
   "extensions": [
     {"id":"weebcentral","name":"Weeb Central","version":3,"language":"en","content":["manga","manhwa","manhua"],"module":"sources/weebcentral.json","hosts":["weebcentral.com","temp.compsci88.com","planeptune.us","lastation.us","lowee.us","compsci88.com"],"capabilities":{"search":true,"popular":true,"latest":true,"details":true,"chapters":true,"pages":true}},
     {"id":"flamecomics","name":"Flame Comics","version":3,"language":"en","content":["manhwa","manhua","manga"],"module":"sources/flamecomics.json","hosts":["flamecomics.xyz","cdn.flamecomics.xyz"],"capabilities":{"search":true,"popular":true,"latest":true,"details":true,"chapters":true,"pages":true}},
@@ -10,7 +10,7 @@
     {"id":"comick","name":"Comick","version":2,"language":"en","content":["manhwa","manhua","manga"],"module":"sources/comick.json","hosts":["api.comick.dev","meo.comick.pictures"],"capabilities":{"search":true,"popular":true,"latest":true,"details":false,"chapters":false,"pages":false}},
     {"id":"hivetoons","name":"HiveToons","version":1,"language":"en","content":["manga","manhwa","manhua"],"module":"sources/hivetoons.json","hosts":["hivetoons.org","hivetoon.com"],"capabilities":{"search":true,"popular":true,"latest":true,"details":true,"chapters":true,"pages":true}},
     {"id":"vortexscans","name":"Vortex Scans","version":1,"language":"en","content":["manga","manhwa","manhua"],"module":"sources/vortexscans.json","hosts":["vortexscans.org","vexmanga.com"],"capabilities":{"search":true,"popular":true,"latest":true,"details":true,"chapters":true,"pages":true}},
-    {"id":"nyxscans","name":"Nyx Scans","version":2,"language":"en","content":["manga","manhwa","manhua"],"module":"sources/nyxscans.json","hosts":["nyxscans.com"],"capabilities":{"search":true,"popular":true,"latest":true,"details":true,"chapters":true,"pages":true}},
+    {"id":"nyxscans","name":"Nyx Scans","version":3,"language":"en","content":["manga","manhwa","manhua"],"module":"sources/nyxscans.json","hosts":["nyxscans.com"],"capabilities":{"search":true,"popular":true,"latest":true,"details":true,"chapters":true,"pages":true}},
     {"id":"toongod","name":"ToonGod","version":2,"language":"en","content":["manga","manhwa","manhua","webtoon","adult"],"module":"sources/toongod.json","hosts":["toongod.cc"],"capabilities":{"search":true,"popular":true,"latest":true,"details":true,"chapters":true,"pages":true},"nsfw":true}
   ]
 }
